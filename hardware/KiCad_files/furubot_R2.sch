@@ -34,7 +34,7 @@ LIBS:rr4
 LIBS:switch
 LIBS:analog
 LIBS:esp01
-LIBS:escornabot_v3-cache
+LIBS:furubot_R2-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -109,64 +109,64 @@ Text Label 3205 2250 2    60   ~ 0
 D13
 Text Notes 1830 2350 0    60   ~ 0
 MICRO
-Text Label 1110 3225 0    60   ~ 0
+Text Label 1790 4435 2    60   ~ 0
 TX
-Text Label 1110 4625 0    60   ~ 0
+Text Label 1790 3035 2    60   ~ 0
 D12
-Text Label 1110 4525 0    60   ~ 0
+Text Label 1790 3135 2    60   ~ 0
 D11
-Text Label 1110 4425 0    60   ~ 0
+Text Label 1790 3235 2    60   ~ 0
 D10
-Text Label 1110 4325 0    60   ~ 0
+Text Label 1790 3335 2    60   ~ 0
 D9
-Text Label 1110 4225 0    60   ~ 0
+Text Label 1790 3435 2    60   ~ 0
 D8
-Text Label 1110 4125 0    60   ~ 0
+Text Label 1790 3535 2    60   ~ 0
 D7
-Text Label 1110 4025 0    60   ~ 0
+Text Label 1790 3635 2    60   ~ 0
 D6
-Text Label 1110 3925 0    60   ~ 0
+Text Label 1790 3735 2    60   ~ 0
 D5
-Text Label 1110 3825 0    60   ~ 0
+Text Label 1790 3835 2    60   ~ 0
 D4
-Text Label 1110 3725 0    60   ~ 0
+Text Label 1790 3935 2    60   ~ 0
 D3
-Text Label 1110 3625 0    60   ~ 0
+Text Label 1790 4035 2    60   ~ 0
 D2
-Text Label 1110 3525 0    60   ~ 0
+Text Label 1790 4135 2    60   ~ 0
 GND
-Text Label 1110 3325 0    60   ~ 0
+Text Label 1790 4335 2    60   ~ 0
 RX
-NoConn ~ 1010 3425
-Text Label 1755 4640 2    60   ~ 0
+NoConn ~ 1890 4235
+Text Label 1105 3035 0    60   ~ 0
 D13
-Text Label 1755 4540 2    60   ~ 0
+Text Label 1105 3135 0    60   ~ 0
 3V3
-Text Label 1755 4440 2    60   ~ 0
+Text Label 1105 3235 0    60   ~ 0
 AREF
-Text Label 1755 4340 2    60   ~ 0
+Text Label 1105 3335 0    60   ~ 0
 A0
-Text Label 1755 4240 2    60   ~ 0
+Text Label 1105 3435 0    60   ~ 0
 A1
-Text Label 1755 4140 2    60   ~ 0
+Text Label 1105 3535 0    60   ~ 0
 A2
-Text Label 1755 4040 2    60   ~ 0
+Text Label 1105 3635 0    60   ~ 0
 A3
-Text Label 1755 3940 2    60   ~ 0
+Text Label 1105 3735 0    60   ~ 0
 A4
-Text Label 1755 3840 2    60   ~ 0
+Text Label 1105 3835 0    60   ~ 0
 A5
-Text Label 1755 3740 2    60   ~ 0
+Text Label 1105 3935 0    60   ~ 0
 A6
-Text Label 1755 3640 2    60   ~ 0
+Text Label 1105 4035 0    60   ~ 0
 A7
-Text Label 1755 3540 2    60   ~ 0
+Text Label 1105 4135 0    60   ~ 0
 5V
-Text Label 1755 3440 2    60   ~ 0
+Text Label 1105 4235 0    60   ~ 0
 RST
-Text Label 1755 3340 2    60   ~ 0
+Text Label 1105 4335 0    60   ~ 0
 GND
-Text Label 1755 3240 2    60   ~ 0
+Text Label 1105 4435 0    60   ~ 0
 RAW
 Text Notes 1805 1565 0    60   ~ 0
 NANO
@@ -183,34 +183,28 @@ F 3 "" H 1465 4245 50  0000 C CNN
 $EndComp
 Text Label 1070 5095 0    60   ~ 0
 3V3
-Text Label 1070 5195 0    60   ~ 0
-D12
 Text Label 1070 5295 0    60   ~ 0
 5V
 Text Label 1070 5395 0    60   ~ 0
-D13
+A0
 Text Label 1070 5495 0    60   ~ 0
 A1
 Text Label 1070 5595 0    60   ~ 0
-A3
+A2
 Text Label 1070 5695 0    60   ~ 0
-A5
+A3
 Text Label 1070 5795 0    60   ~ 0
 GND
 Text Label 1860 5795 2    60   ~ 0
 GND
-Text Label 1860 5695 2    60   ~ 0
-A6
 Text Label 1860 5595 2    60   ~ 0
 A4
 Text Label 1860 5495 2    60   ~ 0
-A2
+A5
 Text Label 1860 5395 2    60   ~ 0
-A0
+D11
 Text Label 1860 5295 2    60   ~ 0
 5V
-Text Label 1860 5195 2    60   ~ 0
-D11
 Text Label 1860 5095 2    60   ~ 0
 3V3
 $Comp
@@ -303,14 +297,14 @@ $EndComp
 Text Label 4930 920  0    60   ~ 0
 5V
 Text Label 4545 1240 0    60   ~ 0
-BUTT
+BUT
 $Comp
 L switch S1
 U 1 1 58B81D93
 P 5555 1740
 F 0 "S1" V 5415 1710 60  0000 C CNN
 F 1 "switch" H 5635 1490 60  0000 C CNN
-F 2 "Switch:bf4050_Button" H 5555 1740 60  0001 C CNN
+F 2 "Switch:Button" H 5555 1740 60  0001 C CNN
 F 3 "" H 5555 1740 60  0001 C CNN
 	1    5555 1740
 	0    -1   -1   0   
@@ -321,7 +315,7 @@ U 1 1 58B82276
 P 5980 1745
 F 0 "S2" V 5845 1745 60  0000 C CNN
 F 1 "switch" H 6060 1495 60  0000 C CNN
-F 2 "Switch:bf4050_Button" H 5980 1745 60  0001 C CNN
+F 2 "Switch:Button" H 5980 1745 60  0001 C CNN
 F 3 "" H 5980 1745 60  0001 C CNN
 	1    5980 1745
 	0    -1   -1   0   
@@ -332,7 +326,7 @@ U 1 1 58B82532
 P 6910 1745
 F 0 "S5" V 6775 1745 60  0000 C CNN
 F 1 "switch" H 6990 1495 60  0000 C CNN
-F 2 "Switch:bf4050_Button" H 6910 1745 60  0001 C CNN
+F 2 "Switch:Button" H 6910 1745 60  0001 C CNN
 F 3 "" H 6910 1745 60  0001 C CNN
 	1    6910 1745
 	0    -1   -1   0   
@@ -354,14 +348,14 @@ U 1 1 58B859F2
 P 7370 1740
 F 0 "S4" V 7235 1740 60  0000 C CNN
 F 1 "switch" H 7450 1490 60  0000 C CNN
-F 2 "Switch:bf4050_Button" H 7370 1740 60  0001 C CNN
+F 2 "Switch:Button" H 7370 1740 60  0001 C CNN
 F 3 "" H 7370 1740 60  0001 C CNN
 	1    7370 1740
 	0    -1   -1   0   
 $EndComp
 Text Notes 2975 655  2    118  ~ 0
 Arduino's Compatibility
-Text Notes 2090 2905 2    118  ~ 0
+Text Notes 785  2880 0    118  ~ 0
 Arduino Socket\n
 Text Notes 4410 1775 0    59   ~ 0
 Choose one\nRx.1 --> SMD\nRx  -->  THT
@@ -449,7 +443,7 @@ U 1 1 58B8236A
 P 6445 1745
 F 0 "S3" V 6310 1745 60  0000 C CNN
 F 1 "switch" H 6525 1495 60  0000 C CNN
-F 2 "Switch:bf4050_Button" H 6445 1745 60  0001 C CNN
+F 2 "Switch:Button" H 6445 1745 60  0001 C CNN
 F 3 "" H 6445 1745 60  0001 C CNN
 	1    6445 1745
 	0    -1   -1   0   
@@ -614,7 +608,7 @@ U 1 1 58BAD83A
 P 8095 3120
 F 0 "SJ2" H 8095 3270 60  0000 C CNN
 F 1 "JUMPER" H 8095 3040 40  0001 C CNN
-F 2 "Resistors_SMD:R_0402" H 8095 3120 60  0001 C CNN
+F 2 "Connect:GS2" H 8095 3120 60  0001 C CNN
 F 3 "" H 8095 3120 60  0000 C CNN
 	1    8095 3120
 	1    0    0    -1  
@@ -657,7 +651,7 @@ F 3 "" H 2610 4505 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 2325 4060 0    60   ~ 0
-D10
+D11
 $Comp
 L GND #PWR05
 U 1 1 58BB0676
@@ -880,21 +874,21 @@ $EndComp
 Text Notes 9395 5635 0    59   ~ 0
 Choose one\nCx.1 --> SMD\nCx   --> THT
 Text Label 8980 4005 0    60   ~ 0
-D4
+D13
 Text Label 8980 4105 0    60   ~ 0
-D5
-Text Label 8980 4205 0    60   ~ 0
-D6
-Text Label 8985 4305 0    60   ~ 0
-D7
-Text Label 8980 4405 0    60   ~ 0
-D8
-Text Label 8980 4505 0    60   ~ 0
-D9
-Text Label 8980 4605 0    60   ~ 0
 D10
+Text Label 8980 4205 0    60   ~ 0
+D9
+Text Label 8985 4305 0    60   ~ 0
+D8
+Text Label 8980 4405 0    60   ~ 0
+D7
+Text Label 8980 4505 0    60   ~ 0
+D6
+Text Label 8980 4605 0    60   ~ 0
+D5
 Text Label 8980 4705 0    60   ~ 0
-D11
+D4
 Text Label 10345 5055 0    60   ~ 0
 RAW
 Text Label 10345 4160 0    60   ~ 0
@@ -2130,7 +2124,7 @@ F 1 "Screw_Terminal_1x02" V 515 6895 50  0001 C TNN
 F 2 "Connect:bornier2" H 665 6670 50  0001 C CNN
 F 3 "" H 640 6895 50  0001 C CNN
 	1    665  6895
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L CONN_01X02 JP2
@@ -2141,7 +2135,7 @@ F 1 "CONN_01X02" V 1770 6900 50  0001 C CNN
 F 2 "Pin_Headers:Pin_Header_Angled_1x02_Pitch2.54mm" H 1670 6900 50  0001 C CNN
 F 3 "" H 1670 6900 50  0000 C CNN
 	1    1670 6900
-	-1   0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L FUSE F1.1
@@ -2459,19 +2453,19 @@ $EndComp
 $Comp
 L switch S7
 U 1 1 58D3FEDC
-P 3480 6640
-F 0 "S7" H 3390 6640 60  0000 C CNN
-F 1 "switch" H 3560 6390 60  0000 C CNN
-F 2 "ComponentesVarios:on_off_Switch" H 3480 6640 60  0001 C CNN
-F 3 "" H 3480 6640 60  0001 C CNN
-	1    3480 6640
-	-1   0    0    -1  
+P 3330 6640
+F 0 "S7" H 3240 6640 60  0000 C CNN
+F 1 "switch" H 3410 6390 60  0000 C CNN
+F 2 "ComponentesVarios:on_off_Switch" H 3330 6640 60  0001 C CNN
+F 3 "" H 3330 6640 60  0001 C CNN
+	1    3330 6640
+	1    0    0    -1  
 $EndComp
 Text Label 625  825  0    60   ~ 0
 MOSI
 Text Label 625  915  0    60   ~ 0
 SS
-Text Label 1755 3040 2    60   ~ 0
+Text Label 1105 4635 0    60   ~ 0
 SCK
 Text Label 3205 915  2    60   ~ 0
 MISO
@@ -2546,30 +2540,30 @@ SDA
 $Comp
 L CONN_01X17 SV2
 U 1 1 58DBA001
-P 2040 3840
-F 0 "SV2" H 2040 4740 50  0000 C CNN
-F 1 "CONN_01X17" V 2140 3840 50  0001 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x17_Pitch2.54mm" H 2040 3840 50  0001 C CNN
-F 3 "" H 2040 3840 50  0001 C CNN
-	1    2040 3840
-	1    0    0    -1  
+P 820 3835
+F 0 "SV2" H 820 4735 50  0000 C CNN
+F 1 "CONN_01X17" V 920 3835 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x17_Pitch2.54mm" H 820 3835 50  0001 C CNN
+F 3 "" H 820 3835 50  0001 C CNN
+	1    820  3835
+	-1   0    0    1   
 $EndComp
 $Comp
 L CONN_01X17 SV3
 U 1 1 58DBB2A9
-P 810 3825
-F 0 "SV3" H 810 2940 50  0000 C CNN
-F 1 "CONN_01X17" V 910 3825 50  0001 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x17_Pitch2.54mm" H 810 3825 50  0001 C CNN
-F 3 "" H 810 3825 50  0001 C CNN
-	1    810  3825
-	-1   0    0    1   
+P 2090 3835
+F 0 "SV3" H 2085 4740 50  0000 C CNN
+F 1 "CONN_01X17" V 2190 3835 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x17_Pitch2.54mm" H 2090 3835 50  0001 C CNN
+F 3 "" H 2090 3835 50  0001 C CNN
+	1    2090 3835
+	1    0    0    1   
 $EndComp
-Text Label 1110 3025 0    60   ~ 0
+Text Label 1790 4635 2    60   ~ 0
 MOSI
-Text Label 1110 3125 0    60   ~ 0
+Text Label 1790 4535 2    60   ~ 0
 SS
-Text Label 1755 3140 2    60   ~ 0
+Text Label 1105 4535 0    60   ~ 0
 MISO
 Text Label 3205 825  2    60   ~ 0
 SCK
@@ -2925,63 +2919,63 @@ Wire Wire Line
 Wire Wire Line
 	1215 5095 1070 5095
 Wire Wire Line
-	1840 4640 1755 4640
+	1020 3035 1105 3035
 Wire Wire Line
-	1840 4540 1755 4540
+	1020 3135 1105 3135
 Wire Wire Line
-	1840 4440 1755 4440
+	1020 3235 1105 3235
 Wire Wire Line
-	1840 4340 1755 4340
+	1020 3335 1105 3335
 Wire Wire Line
-	1840 4240 1755 4240
+	1020 3435 1105 3435
 Wire Wire Line
-	1840 4140 1755 4140
+	1020 3535 1105 3535
 Wire Wire Line
-	1840 4040 1755 4040
+	1020 3635 1105 3635
 Wire Wire Line
-	1840 3940 1755 3940
+	1020 3735 1105 3735
 Wire Wire Line
-	1840 3840 1755 3840
+	1020 3835 1105 3835
 Wire Wire Line
-	1840 3740 1755 3740
+	1020 3935 1105 3935
 Wire Wire Line
-	1840 3640 1755 3640
+	1020 4035 1105 4035
 Wire Wire Line
-	1840 3540 1755 3540
+	1020 4135 1105 4135
 Wire Wire Line
-	1840 3440 1755 3440
+	1020 4235 1105 4235
 Wire Wire Line
-	1840 3340 1755 3340
+	1020 4335 1105 4335
 Wire Wire Line
-	1840 3240 1755 3240
+	1020 4435 1105 4435
 Wire Wire Line
-	1010 4625 1110 4625
+	1890 3035 1790 3035
 Wire Wire Line
-	1010 4525 1110 4525
+	1890 3135 1790 3135
 Wire Wire Line
-	1010 4425 1110 4425
+	1890 3235 1790 3235
 Wire Wire Line
-	1010 4325 1110 4325
+	1890 3335 1790 3335
 Wire Wire Line
-	1010 4225 1110 4225
+	1890 3435 1790 3435
 Wire Wire Line
-	1010 4125 1110 4125
+	1890 3535 1790 3535
 Wire Wire Line
-	1010 4025 1110 4025
+	1890 3635 1790 3635
 Wire Wire Line
-	1010 3925 1110 3925
+	1890 3735 1790 3735
 Wire Wire Line
-	1010 3825 1110 3825
+	1890 3835 1790 3835
 Wire Wire Line
-	1010 3725 1110 3725
+	1890 3935 1790 3935
 Wire Wire Line
-	1010 3625 1110 3625
+	1890 4035 1790 4035
 Wire Wire Line
-	1010 3525 1110 3525
+	1890 4135 1790 4135
 Wire Wire Line
-	1010 3325 1110 3325
+	1890 4335 1790 4335
 Wire Wire Line
-	1010 3225 1110 3225
+	1890 4435 1790 4435
 Wire Wire Line
 	2555 1005 3205 1005
 Wire Wire Line
@@ -3390,13 +3384,13 @@ Wire Notes Line
 Wire Notes Line
 	600  2695 2265 2695
 Wire Wire Line
-	1840 3140 1755 3140
+	1020 4535 1105 4535
 Wire Wire Line
-	1840 3040 1755 3040
+	1020 4635 1105 4635
 Wire Wire Line
-	1010 3125 1110 3125
+	1890 4535 1790 4535
 Wire Wire Line
-	1010 3025 1110 3025
+	1890 4635 1790 4635
 Wire Wire Line
 	5395 6295 5365 6295
 Wire Wire Line
@@ -3444,14 +3438,14 @@ $EndComp
 Wire Wire Line
 	4840 7000 5140 7000
 Wire Wire Line
-	4690 7000 4615 7000
+	4615 7000 4690 7000
 Connection ~ 4615 7000
 Wire Wire Line
-	5290 7000 5395 7000
+	5395 7000 5290 7000
 Wire Wire Line
-	5395 7000 5395 6295
+	5395 6295 5395 7000
 Wire Wire Line
-	4615 7000 4615 6295
+	4615 6295 4615 7000
 Wire Wire Line
 	5015 6645 5015 7165
 Connection ~ 5015 6705
@@ -3541,9 +3535,9 @@ Wire Wire Line
 	2420 5245 2420 5185
 Connection ~ 2540 5185
 Wire Wire Line
-	2540 5445 2540 5560
+	2540 5560 2540 5445
 Wire Wire Line
-	2540 5560 2275 5560
+	2275 5560 2540 5560
 Wire Wire Line
 	2420 5445 2420 5560
 Connection ~ 2420 5560
@@ -3569,4 +3563,10 @@ Wire Wire Line
 Wire Wire Line
 	2755 5560 3025 5560
 Connection ~ 2885 5560
+Text Label 1070 5195 0    60   ~ 0
+3V3
+Text Label 1860 5195 2    60   ~ 0
+5V
+Text Label 1860 5695 2    60   ~ 0
+GND
 $EndSCHEMATC
