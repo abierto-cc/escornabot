@@ -1,4 +1,4 @@
-update=vie 03 mar 2017 13:02:09 CET
+update=vie 12 may 2017 16:05:48 CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -65,3 +65,13 @@ LibName33=rr4
 LibName34=switch
 LibName35=analog
 LibName36=esp01
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60

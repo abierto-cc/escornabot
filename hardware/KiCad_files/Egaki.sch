@@ -34,7 +34,7 @@ LIBS:rr4
 LIBS:switch
 LIBS:analog
 LIBS:esp01
-LIBS:furubot_R2-cache
+LIBS:furubot_R3-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -365,7 +365,7 @@ U 1 1 58B87EA4
 P 10285 1740
 F 0 "S5.1" H 10365 1430 60  0000 C CNN
 F 1 "switch" H 10600 1740 60  0000 C CNN
-F 2 "Buttons_Switches_ThroughHole:SW_PUSH_6mm" H 10285 1740 60  0001 C CNN
+F 2 "Switch:SW_PUSH_6mm" H 10285 1740 60  0001 C CNN
 F 3 "" H 10285 1740 60  0001 C CNN
 	1    10285 1740
 	0    1    -1   0   
@@ -376,7 +376,7 @@ U 1 1 58B880D3
 P 10750 1740
 F 0 "S4.1" H 10830 1435 60  0000 C CNN
 F 1 "switch" H 11065 1740 60  0000 C CNN
-F 2 "Buttons_Switches_ThroughHole:SW_PUSH_6mm" H 10750 1740 60  0001 C CNN
+F 2 "Switch:SW_PUSH_6mm" H 10750 1740 60  0001 C CNN
 F 3 "" H 10750 1740 60  0001 C CNN
 	1    10750 1740
 	0    1    -1   0   
@@ -387,7 +387,7 @@ U 1 1 58B88F4B
 P 9355 1740
 F 0 "S2.1" H 9435 1430 60  0000 C CNN
 F 1 "switch" H 9665 1735 60  0000 C CNN
-F 2 "Buttons_Switches_ThroughHole:SW_PUSH_6mm" H 9355 1740 60  0001 C CNN
+F 2 "Switch:SW_PUSH_6mm" H 9355 1740 60  0001 C CNN
 F 3 "" H 9355 1740 60  0001 C CNN
 	1    9355 1740
 	0    1    -1   0   
@@ -398,7 +398,7 @@ U 1 1 58B88F51
 P 9820 1740
 F 0 "S3.1" H 9905 1430 60  0000 C CNN
 F 1 "switch" H 10135 1740 60  0000 C CNN
-F 2 "Buttons_Switches_ThroughHole:SW_PUSH_6mm" H 9820 1740 60  0001 C CNN
+F 2 "Switch:SW_PUSH_6mm" H 9820 1740 60  0001 C CNN
 F 3 "" H 9820 1740 60  0001 C CNN
 	1    9820 1740
 	0    1    -1   0   
@@ -409,7 +409,7 @@ U 1 1 58B89199
 P 8890 1740
 F 0 "S1.1" H 8970 1420 60  0000 C CNN
 F 1 "switch" H 9200 1740 60  0000 C CNN
-F 2 "Buttons_Switches_ThroughHole:SW_PUSH_6mm" H 8890 1740 60  0001 C CNN
+F 2 "Switch:SW_PUSH_6mm" H 8890 1740 60  0001 C CNN
 F 3 "" H 8890 1740 60  0001 C CNN
 	1    8890 1740
 	0    1    -1   0   
@@ -2193,39 +2193,6 @@ F 3 "" H 2885 7235 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C1
-U 1 1 58BBB7D0
-P 3770 6855
-F 0 "C1" H 3820 6865 50  0000 L CNN
-F 1 "100nF" H 3510 6755 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Disc_D5.0mm_W2.5mm_P5.00mm" H 3770 6855 60  0001 C CNN
-F 3 "" H 3770 6855 60  0000 C CNN
-	1    3770 6855
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C1.1
-U 1 1 58BBBA67
-P 3980 6855
-F 0 "C1.1" H 4030 6865 50  0000 L CNN
-F 1 "100nF" H 4030 6755 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 3980 6855 60  0001 C CNN
-F 3 "" H 3980 6855 60  0000 C CNN
-	1    3980 6855
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR012
-U 1 1 58BBC34A
-P 3870 7025
-F 0 "#PWR012" H 3870 6775 50  0001 C CNN
-F 1 "GND" H 3870 6875 50  0000 C CNN
-F 2 "" H 3870 7025 50  0000 C CNN
-F 3 "" H 3870 7025 50  0000 C CNN
-	1    3870 7025
-	1    0    0    -1  
-$EndComp
-$Comp
 L ESP01 U2
 U 1 1 58BBE9A1
 P 5835 5020
@@ -2376,7 +2343,7 @@ F 3 "" H 4885 1080 60  0000 C CNN
 $EndComp
 Text Label 8935 3770 0    60   ~ 0
 RAW
-Text Label 3815 6790 0    60   ~ 0
+Text Label 3980 6790 2    60   ~ 0
 RAW
 Text Label 2875 6740 0    60   ~ 0
 VIN
@@ -2387,10 +2354,10 @@ A5
 Text Label 4645 2920 2    60   ~ 0
 A4
 $Comp
-L GND #PWR013
+L GND #PWR012
 U 1 1 58D30B35
 P 3185 2675
-F 0 "#PWR013" H 3185 2425 50  0001 C CNN
+F 0 "#PWR012" H 3185 2425 50  0001 C CNN
 F 1 "GND" H 3185 2525 50  0000 C CNN
 F 2 "" H 3185 2675 50  0000 C CNN
 F 3 "" H 3185 2675 50  0000 C CNN
@@ -2456,7 +2423,7 @@ U 1 1 58D3FEDC
 P 3330 6640
 F 0 "S7" H 3240 6640 60  0000 C CNN
 F 1 "switch" H 3410 6390 60  0000 C CNN
-F 2 "ComponentesVarios:on_off_Switch" H 3330 6640 60  0001 C CNN
+F 2 "Switch:on_off_Switch" H 3330 6640 60  0001 C CNN
 F 3 "" H 3330 6640 60  0001 C CNN
 	1    3330 6640
 	1    0    0    -1  
@@ -2579,18 +2546,16 @@ F 3 "" H 5015 6295 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR014
+L GND #PWR013
 U 1 1 58DC633A
 P 5015 7165
-F 0 "#PWR014" H 5015 6915 50  0001 C CNN
+F 0 "#PWR013" H 5015 6915 50  0001 C CNN
 F 1 "GND" H 4875 7105 50  0000 C CNN
 F 2 "" H 5015 7165 50  0000 C CNN
 F 3 "" H 5015 7165 50  0000 C CNN
 	1    5015 7165
 	1    0    0    -1  
 $EndComp
-Text Label 4615 6905 2    60   ~ 0
-VIN
 Text Label 5395 6890 0    60   ~ 0
 3V3R
 $Comp
@@ -3231,13 +3196,6 @@ Wire Wire Line
 Wire Wire Line
 	2835 7060 2835 7180
 Connection ~ 2930 6740
-Wire Wire Line
-	3770 6955 3770 7025
-Wire Wire Line
-	3770 7025 3980 7025
-Wire Wire Line
-	3980 7025 3980 6955
-Connection ~ 3870 7025
 Wire Notes Line
 	4350 7580 4350 6040
 Wire Wire Line
@@ -3346,13 +3304,8 @@ Wire Wire Line
 Wire Wire Line
 	3600 6740 3560 6740
 Wire Wire Line
-	3980 6790 3980 6805
-Wire Wire Line
 	3600 6790 3980 6790
 Connection ~ 3600 6790
-Wire Wire Line
-	3770 6805 3770 6790
-Connection ~ 3770 6790
 Wire Wire Line
 	885  915  625  915 
 Wire Wire Line
@@ -3569,4 +3522,6 @@ Text Label 1860 5195 2    60   ~ 0
 5V
 Text Label 1860 5695 2    60   ~ 0
 GND
+Text Label 4615 6850 2    60   ~ 0
+RAW
 $EndSCHEMATC
