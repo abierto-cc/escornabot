@@ -6,7 +6,7 @@ Con amor para todo el mundo desde Malmo - Suecia.
 
 # créditos
 
-Los creadores originales de Escornabot y su comunidad de usuarios y desarrolladores
+Los creadores originales de Escornabot www.escornabot.com y su comunidad de usuarios y desarrolladores 
 
 # autor
 
