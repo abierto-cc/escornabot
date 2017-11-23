@@ -1,0 +1,23 @@
+Arduino micro	Arduino Nano	Component
+D0			D0	Buetooth (Rx)
+D1			D1	Buetooth (Tx)
+D2				Oled (SDA)
+D3				Oled (SCL)
+D4			D4	Motor
+D5			D5	Motor
+D6			D6	Motor
+D7			D7	Motor
+D8			D8	Motor
+D9			D9	Motor
+D10			D10	Motor
+D11			D11	Buzzer
+D12 (A11)			Buttons
+D13			D13	Motor
+A0			A0	LED Blue
+A1			A1	LED Red
+A2			A2	LED Orange
+A3			A3	LED Green
+			A4	Oled (SDA)
+			A5	Oled (SCL)
+A6			A6	
+			A7	Buttons
