@@ -72,7 +72,7 @@ See LICENSE.txt for details
 
 // simple led
 #define USE_SIMPLE_LED true
-#define SIMPLE_LED_PIN 11
+#define SIMPLE_LED_PIN A0
 
 
 
