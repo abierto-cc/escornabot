@@ -1,6 +1,6 @@
 // Configuration.h
 /*
- 
+
  Copyright (C) 2014 Bricolabs - http://bricolabs.cc
  
  This program is free software; you can redistribute it and/or
@@ -71,7 +71,7 @@
 #define PROGRAM_FINISHED_RTTL RTTL_FIDO
 
 // simple led
-#define USE_SIMPLE_LED true
+#define USE_SIMPLE_LED false
 #define SIMPLE_LED_PIN A0
 
 
@@ -129,15 +129,14 @@
 //#define BS_ANALOG_WIRES 3
 
 // Button set pin setup (analog input)
-#define BS_ANALOG_PIN A11
+#define BS_ANALOG_PIN A7
 
 // input values for each key pressed (0 if key doesn't exist)
-#define BS_ANALOG_VALUE_UP 813
-#define BS_ANALOG_VALUE_RIGHT 738
-#define BS_ANALOG_VALUE_DOWN 578
-#define BS_ANALOG_VALUE_LEFT 886
-#define BS_ANALOG_VALUE_GO 857
-#define BS_ANALOG_VALUE_RESET 448
+#define BS_ANALOG_VALUE_UP 768
+#define BS_ANALOG_VALUE_RIGHT 682
+#define BS_ANALOG_VALUE_DOWN 511
+#define BS_ANALOG_VALUE_LEFT 853
+#define BS_ANALOG_VALUE_GO 819
 
 #endif // BUTTONS_ANALOG
 
