@@ -1,26 +1,26 @@
 // Configuration.h
 /*
 
-Copyright (C) 2014 Bricolabs - http://bricolabs.cc
-
-This program is free software; you can redistribute it and/or
-modify it under the terms of the GNU General Public License
-as published by the Free Software Foundation; either version 2
-of the License, or (at your option) any later version.
-
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License for more details.
-
-You should have received a copy of the GNU General Public License
-along with this program; if not, write to the Free Software
-Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301,
-USA.
-
-See LICENSE.txt for details
-
-*/
+ Copyright (C) 2014 Bricolabs - http://bricolabs.cc
+ 
+ This program is free software; you can redistribute it and/or
+ modify it under the terms of the GNU General Public License
+ as published by the Free Software Foundation; either version 2
+ of the License, or (at your option) any later version.
+ 
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ 
+ You should have received a copy of the GNU General Public License
+ along with this program; if not, write to the Free Software
+ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301,
+ USA.
+ 
+ See LICENSE.txt for details
+ 
+ */
 
 #ifndef _CONFIGURATION_H
 #define _CONFIGURATION_H
@@ -63,7 +63,7 @@ See LICENSE.txt for details
 #define AFTER_MOVEMENT_PAUSE 0
 
 // point of view set when Vacalourabot is started
-#define POV_INITIAL	POV_ESCORNABOT
+#define POV_INITIAL    POV_ESCORNABOT
 
 // buzzer
 #define USE_BUZZER true
@@ -83,19 +83,19 @@ See LICENSE.txt for details
 #ifdef ENGINE_TYPE_STEPPERS
 
 // stepper pin setup (digital outputs)
-#define STEPPERS_MOTOR_RIGHT_IN1 7
-#define STEPPERS_MOTOR_RIGHT_IN2 6
-#define STEPPERS_MOTOR_RIGHT_IN3 5
-#define STEPPERS_MOTOR_RIGHT_IN4 4
-#define STEPPERS_MOTOR_LEFT_IN1 13
-#define STEPPERS_MOTOR_LEFT_IN2 10
-#define STEPPERS_MOTOR_LEFT_IN3 9
-#define STEPPERS_MOTOR_LEFT_IN4 8
+#define STEPPERS_MOTOR_RIGHT_IN1 4
+#define STEPPERS_MOTOR_RIGHT_IN2 5
+#define STEPPERS_MOTOR_RIGHT_IN3 6
+#define STEPPERS_MOTOR_RIGHT_IN4 7
+#define STEPPERS_MOTOR_LEFT_IN1 8
+#define STEPPERS_MOTOR_LEFT_IN2 9
+#define STEPPERS_MOTOR_LEFT_IN3 10
+#define STEPPERS_MOTOR_LEFT_IN4 13
 
 // step calibration
-#define STEPPERS_STEPS_PER_SECOND 1500
-#define STEPPERS_LINE_STEPS 1738
-#define STEPPERS_TURN_STEPS 1024
+#define STEPPERS_STEPS_PER_SECOND 1000/1000*215
+#define STEPPERS_LINE_STEPS (1738/260)*75
+#define STEPPERS_TURN_STEPS (1024/260)*90
 
 #endif
 
@@ -150,10 +150,10 @@ See LICENSE.txt for details
 #ifdef BUTTONS_BLUETOOTH
 
 // Arduino serial port
-#define BS_BLUETOOTH_SERIAL	Serial
-//#define BS_BLUETOOTH_SERIAL	Serial1
-//#define BS_BLUETOOTH_SERIAL	Serial2
-//#define BS_BLUETOOTH_SERIAL	Serial3
+#define BS_BLUETOOTH_SERIAL    Serial
+//#define BS_BLUETOOTH_SERIAL    Serial1
+//#define BS_BLUETOOTH_SERIAL    Serial2
+//#define BS_BLUETOOTH_SERIAL    Serial3
 
 #define BS_BLUETOOTH_BAUDS 9600
 
