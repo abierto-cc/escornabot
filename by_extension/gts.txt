@@ -1,0 +1,2 @@
+Ogaki/hardware/Gerber/Ogaki-F.Mask.gts
+furubot/hardware/gerber/Egaki-F.Mask.gts

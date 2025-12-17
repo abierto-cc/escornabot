@@ -1,0 +1,5 @@
+Ogaki/3d/wheel.fcstd
+Ogaki/3d/escornacpu-3_00-bracket.fcstd
+Ogaki/3d/motor-bracket.fcstd
+Ogaki/3d/battery-bracket.fcstd
+Ogaki/3d/ballcaster.fcstd

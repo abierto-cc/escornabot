@@ -1,0 +1,2 @@
+Ogaki/hardware/Gerber/Ogaki-F.SilkS.gto
+furubot/hardware/gerber/Egaki-F.SilkS.gto

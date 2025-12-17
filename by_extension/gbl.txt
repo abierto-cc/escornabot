@@ -1,0 +1,2 @@
+Ogaki/hardware/Gerber/Ogaki-B.Cu.gbl
+furubot/hardware/gerber/Egaki-B.Cu.gbl

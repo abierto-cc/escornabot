@@ -1,0 +1,4 @@
+Ogaki/hardware/Silks/kicad/borde.mod
+Ogaki/hardware/Silks/kicad/borde_Silk.mod
+furubot/hardware/silks/borde.mod
+furubot/hardware/silks/borde_Silk.mod

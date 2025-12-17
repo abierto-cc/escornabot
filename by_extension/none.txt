@@ -1,0 +1,2 @@
+Ogaki/hardware/KiCad files/fp-lib-table
+furubot/hardware/KiCad_files/fp-lib-table

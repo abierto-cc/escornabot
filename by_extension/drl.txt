@@ -1,0 +1,2 @@
+Ogaki/hardware/Gerber/Ogaki.drl
+furubot/hardware/gerber/Egaki.drl

@@ -1,0 +1,2 @@
+Ogaki/hardware/KiCad files/Ogaki.kicad_pcb
+furubot/hardware/KiCad_files/Egaki.kicad_pcb

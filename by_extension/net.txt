@@ -1,0 +1,2 @@
+Ogaki/hardware/KiCad files/Ogaki.net
+furubot/hardware/KiCad_files/Egaki.net

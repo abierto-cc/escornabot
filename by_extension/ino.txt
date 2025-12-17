@@ -1,0 +1,3 @@
+Ogaki/software/Ogaki_ArduinoMicro/Escornabot.ino
+Ogaki/software/Ogaki_ArduinoNano/Escornabot.ino
+furubot/software/Escornabot.ino

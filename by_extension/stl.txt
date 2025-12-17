@@ -1,0 +1,6 @@
+Ogaki/3d/wheel-l.stl
+Ogaki/3d/battery-bracket.stl
+Ogaki/3d/motor-bracket.stl
+Ogaki/3d/ballcaster.stl
+Ogaki/3d/wheel-r.stl
+Ogaki/3d/escornacpu-3_00-bracket.stl

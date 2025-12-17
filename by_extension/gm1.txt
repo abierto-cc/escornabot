@@ -1,0 +1,2 @@
+Ogaki/hardware/Gerber/Ogaki-Edge.Cuts.gm1
+furubot/hardware/gerber/Egaki-Edge.Cuts.gm1
