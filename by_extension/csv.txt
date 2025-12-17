@@ -1,0 +1,4 @@
+Ogaki/hardware/Component connections.csv
+Ogaki/hardware/KiCad files/Ogaki.csv
+Ogaki/hardware/BOM/BOM Ogaki.csv
+furubot/hardware/KiCad_files/Egaki.csv

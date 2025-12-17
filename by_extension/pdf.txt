@@ -1,0 +1,2 @@
+Ogaki/hardware/pdf/Ogaki.pdf
+Ogaki/3d/montaje/Instrucciones_Chasis.pdf

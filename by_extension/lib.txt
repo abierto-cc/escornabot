@@ -1,0 +1,4 @@
+Ogaki/hardware/KiCad files/Ogaki-rescue.lib
+Ogaki/hardware/KiCad files/Ogaki-cache.lib
+Ogaki/hardware/KiCad files/Ogaki.lib
+furubot/hardware/KiCad_files/Egaki.lib
